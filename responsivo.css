@@ -1,0 +1,63 @@
+@media screen and (max-width: 768px) {
+
+    .container {
+        display: block;
+        background-image: none;
+        height: 100vh;
+    }
+    .principal {
+        height: 680px;
+    }
+    .container__imagem {
+        width: 50vw;
+    }
+
+    .container__caixa {
+        margin: 2em;
+    }
+    .container__botao {
+        width: 285px;
+    }
+
+    .secundario {
+        margin: 0;
+        text-align: center;
+    }
+
+    .secundario__imagem, .imagem__tres, .imagem__quatro {
+        width: 90vw;
+        margin: 0;
+    }
+
+    .container__tres {
+        margin-bottom: 30px;
+    }
+
+    .descricao__tres {
+        width: 70%;
+        margin-left: 60px;
+    }
+
+    .rodape {
+        width: 100%;
+    }
+    .rodape__texto2 {
+        width: 80%;
+    }
+    .rodape__logo {
+        width: 30%;
+    }
+    .rodape__lista {
+        width: 100%;
+        display: block;
+       margin: 0 auto;
+    }
+    .lista__link {
+        margin: 24px auto;
+        text-align: center;
+    }
+
+    .dispositivos__lista {
+        display: block;
+    }
+}
